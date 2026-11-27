@@ -65,6 +65,25 @@ def test_checks_flag_values_not_in_text_and_our_company():
     assert "is_our_company" in flags["counterparty"]
 
 
+def test_validate_catches_bad_output(tmp_path):
+    from router.schemas import Document
+    from router.validate import validate
+
+    docs = [Document(doc_id="D-1", text="INVOICE\nInvoice No: INV-2026-1\n"),
+            Document(doc_id="D-2", text="hello")]
+    out = tmp_path / "output.jsonl"
+    out.write_text(json.dumps({"id": "D-1", "doc_type": "memo", "date": "14/03/2026",
+                               "total_amount": "12", "counterparty": "X",
+                               "reference": "INV-2026-1", "cheap_calls": 1,
+                               "expensive_calls": 200}) + "\n", encoding="utf-8")
+    v = validate(out, docs, budget=2100, cost_cheap=1, cost_expensive=20)
+    text = " ".join(v.errors)
+    for problem in ("doc_type", "YYYY-MM-DD", "not a number", "missing from output",
+                    "exceed budget"):
+        assert problem in text
+    assert v.crosscheck["reference"] == [1, 1]
+
+
 def test_policy_never_exceeds_budget():
     cands = [Candidate(str(i), 5, 0.5) for i in range(100)]
     plan = choose_escalations(cands, expensive_accuracy=0.97, spent=300, budget=2100,
