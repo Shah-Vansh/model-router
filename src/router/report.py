@@ -43,6 +43,7 @@ def summarize(run: RunResult) -> dict:
         "requests": run.calls,
         "cache_hits": run.cache_hits,
         "failures": run.failures,
+        "request_errors": run.errors,
         "policy": s["policy"],
         "plan_stop_reason": run.plan.stop_reason,
         "calibration": {
@@ -88,8 +89,8 @@ def print_report(sm: dict, console: Console | None = None) -> None:
     c.print(f"Calibration ({sm['calibration']['sample_size']} docs, agreement with expensive "
             f"model): {sm['calibration']['cell_accuracy']}")
     c.print(f"Planner ({sm['policy']}) stopped: {sm['plan_stop_reason']}")
-    if sm["failures"]:
-        c.print(f"[yellow]Failures: {sm['failures']}[/]")
+    if sm["failures"] or sm["request_errors"]:
+        c.print(f"[yellow]Failures: {sm['failures']} | request errors: {sm['request_errors']}[/]")
 
 
 def write_outputs(run: RunResult, sm: dict, out_dir: Path) -> None:

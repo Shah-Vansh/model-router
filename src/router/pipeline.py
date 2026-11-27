@@ -30,6 +30,7 @@ class TierRun:
     calls: list[ModelCall] = field(default_factory=list)
     first_call: float | None = None
     last_call: float | None = None
+    retried: int = 0  # single-document retry sends
 
 
 async def _send(client: ModelClient, batch: list[Document], s: Settings, run: TierRun) -> None:
@@ -45,16 +46,26 @@ async def _send(client: ModelClient, batch: list[Document], s: Settings, run: Ti
     run.answers.update(parse_batch(call.raw, [d.doc_id for d in batch]))
 
 
-async def run_tier(client: ModelClient, docs: list[Document], batch_size: int,
-                   s: Settings, retry_limit: int | None = None) -> TierRun:
-    """Send documents in batches; anything missing from a reply is retried on its own once."""
+async def run_tier(client: ModelClient, docs: list[Document], batch_size: int, s: Settings,
+                   budget_units: float | None = None, unit_cost: float = 1.0,
+                   retry_rounds: int = 2) -> TierRun:
+    """Send documents in batches, then retry unanswered ones on their own.
+
+    Failed calls are not charged, so the retry allowance is worked out from what
+    was actually charged, never from the plan. Documents are retried in the
+    order given (highest value first), and only while the budget still covers them.
+    """
     run = TierRun()
     batches = [docs[i:i + batch_size] for i in range(0, len(docs), batch_size)]
     await asyncio.gather(*(_send(client, b, s, run) for b in batches))
-    missing = [d for d in docs if d.doc_id not in run.answers]
-    if retry_limit is not None:
-        missing = missing[:max(0, retry_limit)]  # never retry past the budget
-    if missing and batch_size > 1:
+    for _ in range(retry_rounds):
+        missing = [d for d in docs if d.doc_id not in run.answers]
+        if budget_units is not None:
+            charged = sum(run.calls_per_doc.values()) * unit_cost
+            missing = missing[:max(0, int((budget_units - charged) // unit_cost))]
+        if not missing:
+            break
+        run.retried += len(missing)
         await asyncio.gather(*(_send(client, [d], s, run) for d in missing))
     return run
 
@@ -84,6 +95,7 @@ class RunResult:
     cache_hits: int
     failures: dict[str, int]
     settings: dict
+    errors: dict[str, int] = field(default_factory=dict)
 
     @property
     def total_cost(self) -> float:
@@ -104,7 +116,8 @@ async def run_pipeline(s: Settings, docs: list[Document]) -> RunResult:
     by_id = {d.doc_id: d for d in docs}
     try:
         # 1. Cheap pass on every document.
-        cheap_run = await run_tier(cheap, docs, s.cheap_batch_size, s)
+        cheap_run = await run_tier(cheap, docs, s.cheap_batch_size, s,
+                                   budget_units=s.budget, unit_cost=s.cost_cheap)
 
         # 2. Free checks and a complexity score per document.
         flags = {d.doc_id: run_checks(d.text, cheap_run.answers.get(d.doc_id)) for d in docs}
@@ -117,7 +130,8 @@ async def run_pipeline(s: Settings, docs: list[Document]) -> RunResult:
         room = int((s.budget - spent) // s.cost_expensive)
         cal_ids = _calibration_sample(docs, min(s.calibration_size, room), s.calibration_seed)
         exp_run = await run_tier(expensive, [by_id[i] for i in cal_ids],
-                                 s.expensive_batch_size, s, retry_limit=room - len(cal_ids))
+                                 s.expensive_batch_size, s, budget_units=s.budget - spent,
+                                 unit_cost=s.cost_expensive)
         samples = [
             {"cheap_values": cheap_run.answers[i].values if i in cheap_run.answers else {},
              "reference_values": exp_run.answers[i].values, "flags": flags[i],
@@ -142,10 +156,11 @@ async def run_pipeline(s: Settings, docs: list[Document]) -> RunResult:
             policy=s.policy,
         )
 
-        # 5. Expensive pass on the chosen documents (retries are budget-checked).
-        spare = int((s.budget - plan.planned_cost) // s.cost_expensive)
+        # 5. Expensive pass on the chosen documents. Unanswered documents are retried
+        #    one by one, highest gain first, with whatever budget failed calls left unspent.
         esc_run = await run_tier(expensive, [by_id[i] for i in plan.escalate],
-                                 s.expensive_batch_size, s, retry_limit=spare)
+                                 s.expensive_batch_size, s, budget_units=s.budget - spent,
+                                 unit_cost=s.cost_expensive)
     finally:
         await cheap.aclose()
         await expensive.aclose()
@@ -198,7 +213,9 @@ async def run_pipeline(s: Settings, docs: list[Document]) -> RunResult:
         calls={"cheap_requests": len(cheap_run.calls),
                "expensive_requests": len(exp_run.calls) + len(esc_run.calls),
                "calibration_docs": len(cal_ids), "escalated_docs": len(plan.escalate),
-               "failed_requests": sum(c.error is not None for c in all_calls)},
+               "failed_requests": sum(c.error is not None for c in all_calls),
+               "retry_sends": sum(r.retried for r in runs)},
+        errors=dict(Counter(c.error.split(":")[0] for c in all_calls if c.error)),
         cache_hits=sum(c.cached for c in all_calls),
         failures=dict(failures),
         settings={"cheap": cheap.model_id, "expensive": expensive.model_id, "budget": s.budget,

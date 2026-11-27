@@ -42,8 +42,8 @@ class FakeClient(ModelClient):
 
 def test_parse_batch_handles_missing_and_bad_values():
     raw = json.dumps({"results": [
-        {"id": "D-1", "doc_type": "Invoice", "date": "14 March 2026", "total_amount": "EUR 1,200.50",
-         "counterparty": "X Ltd", "reference": "INV-1"},
+        {"id": "D-1", "doc_type": "Invoice", "date": "14 March 2026",
+         "total_amount": "EUR 1,200.50", "counterparty": "X Ltd", "reference": "INV-1"},
         {"id": "D-2", "doc_type": "memo", "date": "not a date"},
     ]})
     out = parse_batch(raw, ["D-1", "D-2", "D-3"])
@@ -71,6 +71,30 @@ def test_policy_never_exceeds_budget():
                               cost_expensive=20, target=0.99, policy="max_accuracy")
     assert plan.planned_cost <= 2100
     assert len(plan.escalate) == 90
+
+
+class FlakyClient(FakeClient):
+    """Expensive tier whose batch requests always fail; single-document requests work."""
+
+    async def _generate(self, system: str, prompt: str) -> str:
+        if len(re.findall(r"### id: ", prompt)) > 1:
+            raise ValueError("simulated outage")
+        return await super()._generate(system, prompt)
+
+
+@pytest.mark.skipif(not DOCS.exists(), reason="provided documents not present")
+async def test_failed_batches_are_retried_singly_within_budget(monkeypatch, tmp_path):
+    clients = {"cheap": FakeClient("cheap", wrong_every=4),
+               "expensive": FlakyClient("expensive", wrong_every=0)}
+    monkeypatch.setattr(pipeline, "build_client", lambda tier, s, cache: clients[tier])
+    s = Settings(use_cache=False, output_dir=tmp_path, cheap_rpm=0, expensive_rpm=0)
+    run = await pipeline.run_pipeline(s, load_documents(DOCS))
+    assert run.total_cost <= s.budget
+    assert run.calls["retry_sends"] > 0
+    # Every escalated/calibration document ends up with an expensive answer.
+    assert "expensive_no_answer_kept_cheap" not in run.failures
+    # Failed batch calls are not charged: each answered document is charged exactly once.
+    assert all(r.expensive_calls <= 1 for r in run.results)
 
 
 @pytest.mark.skipif(not DOCS.exists(), reason="provided documents not present")

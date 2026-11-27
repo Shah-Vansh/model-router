@@ -41,7 +41,8 @@ class Calibration:
     sample_size: int = 0
 
     def p_correct(self, flagged: bool, complex_doc: bool) -> float:
-        return self.cell_accuracy.get(cell_name(flagged, complex_doc), PRIORS[(flagged, complex_doc)])
+        default = PRIORS[(flagged, complex_doc)]
+        return self.cell_accuracy.get(cell_name(flagged, complex_doc), default)
 
     def save(self, path: Path) -> None:
         path.write_text(json.dumps(asdict(self), indent=2), encoding="utf-8")

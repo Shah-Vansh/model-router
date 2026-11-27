@@ -3,19 +3,19 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from enum import Enum
+from enum import StrEnum
 from typing import Any
 
 from pydantic import BaseModel, Field
 
 
-class DocType(str, Enum):
+class DocType(StrEnum):
     INVOICE = "invoice"
     CONTRACT = "contract"
     EMAIL = "email"
 
 
-class Kind(str, Enum):
+class Kind(StrEnum):
     TEXT = "text"
     ID = "id"
     DATE = "date"
