@@ -1,0 +1,300 @@
+{"id": "D-001", "doc_type": "contract", "date": "2026-07-03", "total_amount": 328000.0, "counterparty": "Maplestone Software Group", "reference": "CTR-75494", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-002", "doc_type": "invoice", "date": "2026-06-30", "total_amount": 121974.51, "counterparty": "Halcyon Analytics Pvt Ltd", "reference": "INV-2026-76795", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-003", "doc_type": "invoice", "date": "2026-07-13", "total_amount": 182185.58, "counterparty": "Vantage Textiles Inc", "reference": "INV-2026-76200", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-004", "doc_type": "contract", "date": "2026-06-03", "total_amount": 819000.0, "counterparty": "Riverbend Packaging Inc", "reference": "CTR-66348", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-005", "doc_type": "invoice", "date": "2026-02-04", "total_amount": 84718.68, "counterparty": "Vantage Facilities LLC", "reference": "INV-2026-37438", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-006", "doc_type": "invoice", "date": "2026-06-09", "total_amount": 294897.14, "counterparty": "Summit Networks Co", "reference": "INV-2026-93256", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-007", "doc_type": "email", "date": "2026-04-08", "total_amount": 132700.0, "counterparty": "Skylark Engineering Group", "reference": "PO-53317", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-008", "doc_type": "email", "date": "2026-05-08", "total_amount": 148928.43, "counterparty": "Amberley Marketing Co", "reference": "PO-95148", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-009", "doc_type": "invoice", "date": "2026-06-08", "total_amount": 111698.77, "counterparty": "Oakhurst Textiles Ltd", "reference": "INV-2026-15630", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-010", "doc_type": "invoice", "date": "2026-08-26", "total_amount": 361956.06, "counterparty": "Quillon Security Inc", "reference": "INV-2026-22179", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-011", "doc_type": "email", "date": "2026-03-02", "total_amount": 95500.0, "counterparty": "Orchard Technologies Inc", "reference": "PO-28463", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-012", "doc_type": "invoice", "date": "2026-04-24", "total_amount": 207239.52, "counterparty": "Amberley Components LLC", "reference": "INV-2026-65319", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-013", "doc_type": "email", "date": "2026-01-17", "total_amount": 122439.83, "counterparty": "Larkspur Supplies Inc", "reference": "PO-47497", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-014", "doc_type": "contract", "date": "2026-02-06", "total_amount": 434000.0, "counterparty": "Amberley Robotics Ltd", "reference": "CTR-31890", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-015", "doc_type": "email", "date": "2026-04-16", "total_amount": 52300.0, "counterparty": "Vantage Engineering Pvt Ltd", "reference": "PO-14268", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-016", "doc_type": "contract", "date": "2026-02-18", "total_amount": 817000.0, "counterparty": "Brightwell Facilities Inc", "reference": "CTR-14540", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-017", "doc_type": "email", "date": "2026-09-15", "total_amount": 77300.0, "counterparty": "Skylark Foods Ltd", "reference": "PO-47796", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-018", "doc_type": "invoice", "date": "2026-01-09", "total_amount": 191758.27, "counterparty": "Redfern Textiles Group", "reference": "INV-2026-43804", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-019", "doc_type": "contract", "date": "2026-10-04", "total_amount": 681000.0, "counterparty": "Orchard Consulting PLC", "reference": "CTR-96670", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-020", "doc_type": "invoice", "date": "2026-01-06", "total_amount": 296116.98, "counterparty": "Corvid Packaging PLC", "reference": "INV-2026-49138", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-021", "doc_type": "invoice", "date": "2026-04-04", "total_amount": 137230.61, "counterparty": "Amberley Supplies Ltd", "reference": "INV-2026-77659", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-022", "doc_type": "email", "date": "2026-04-02", "total_amount": 12343.05, "counterparty": "Bluepeak Logistics Inc", "reference": "PO-49199", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-023", "doc_type": "email", "date": "2026-10-23", "total_amount": 28169.02, "counterparty": "Greyfield Textiles Co", "reference": "PO-79748", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-024", "doc_type": "invoice", "date": "2026-05-10", "total_amount": 21773.45, "counterparty": "Oakhurst Technologies GmbH", "reference": "INV-2026-44811", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-025", "doc_type": "invoice", "date": "2026-07-30", "total_amount": 14901.18, "counterparty": "Greyfield Consulting Ltd", "reference": "INV-2026-15185", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-026", "doc_type": "contract", "date": "2026-08-24", "total_amount": 339000.0, "counterparty": "Castlebrook Freight Pvt Ltd", "reference": "CTR-31956", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-027", "doc_type": "email", "date": "2026-05-08", "total_amount": 137922.7, "counterparty": "Summit Supplies PLC", "reference": "PO-25773", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-028", "doc_type": "contract", "date": "2026-10-05", "total_amount": 328000.0, "counterparty": "Riverbend Foods Inc", "reference": "CTR-51030", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-029", "doc_type": "invoice", "date": "2026-05-14", "total_amount": 108973.78, "counterparty": "Castlebrook Printing Ltd", "reference": "INV-2026-39822", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-030", "doc_type": "invoice", "date": "2026-04-12", "total_amount": 240267.86, "counterparty": "Silverline Analytics Co", "reference": "INV-2026-45530", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-031", "doc_type": "email", "date": "2026-01-16", "total_amount": 107564.99, "counterparty": "Riverbend Software PLC", "reference": "PO-30258", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-032", "doc_type": "invoice", "date": "2026-10-16", "total_amount": 65505.68, "counterparty": "Skylark Robotics LLC", "reference": "INV-2026-61849", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-033", "doc_type": "invoice", "date": "2026-07-30", "total_amount": 171331.43, "counterparty": "Oakhurst Printing LLC", "reference": "INV-2026-77370", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-034", "doc_type": "email", "date": "2026-08-11", "total_amount": 112280.97, "counterparty": "Quillon Technologies GmbH", "reference": "PO-64069", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-035", "doc_type": "email", "date": "2026-01-28", "total_amount": 94837.16, "counterparty": "Redfern Freight Inc", "reference": "PO-67115", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-036", "doc_type": "invoice", "date": "2026-01-09", "total_amount": 191758.27, "counterparty": "Redfern Textiles Group", "reference": "INV-2026-43804", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-037", "doc_type": "invoice", "date": "2026-08-24", "total_amount": 151601.35, "counterparty": "Fairmount Analytics GmbH", "reference": "INV-2026-02173", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-038", "doc_type": "invoice", "date": "2026-02-10", "total_amount": 383791.85, "counterparty": "Lindenwood Marketing Co", "reference": "INV-2026-35294", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-039", "doc_type": "contract", "date": "2026-03-21", "total_amount": 234000.0, "counterparty": "Tidewater Logistics GmbH", "reference": "CTR-99477", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-040", "doc_type": "email", "date": "2026-04-24", "total_amount": 118400.0, "counterparty": "Quillon Textiles Pvt Ltd", "reference": "PO-66136", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-041", "doc_type": "contract", "date": "2026-05-06", "total_amount": 89000.0, "counterparty": "Redfern Components LLC", "reference": "CTR-56724", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-042", "doc_type": "invoice", "date": "2026-04-22", "total_amount": 245419.89, "counterparty": "Pinecrest Freight GmbH", "reference": "INV-2026-08776", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-043", "doc_type": "email", "date": "2026-06-21", "total_amount": 175200.0, "counterparty": "Ashcombe Networks Ltd", "reference": "PO-57793", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-044", "doc_type": "invoice", "date": "2026-08-22", "total_amount": 216397.49, "counterparty": "Harrowgate Software Pvt Ltd", "reference": "INV-2026-65027", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-045", "doc_type": "contract", "date": "2026-04-21", "total_amount": 438000.0, "counterparty": "Bluepeak Software Inc", "reference": "CTR-38485", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-046", "doc_type": "contract", "date": "2026-01-18", "total_amount": 88000.0, "counterparty": "Quillon Freight Pvt Ltd", "reference": "CTR-26057", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-047", "doc_type": "invoice", "date": "2026-09-22", "total_amount": 200336.98, "counterparty": "Pinecrest Logistics Group", "reference": "INV-2026-51536", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-048", "doc_type": "invoice", "date": "2026-06-12", "total_amount": 165857.78, "counterparty": "Corvid Foods Co", "reference": "INV-2026-07029", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-049", "doc_type": "invoice", "date": "2026-04-22", "total_amount": 98752.38, "counterparty": "Riverbend Textiles PLC", "reference": "INV-2026-81519", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-050", "doc_type": "email", "date": "2026-03-19", "total_amount": 126920.93, "counterparty": "Vantage Software Co", "reference": "PO-27234", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-051", "doc_type": "email", "date": "2026-08-15", "total_amount": 19437.81, "counterparty": "Maplestone Systems Co", "reference": "PO-34892", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-052", "doc_type": "contract", "date": "2026-08-26", "total_amount": 395000.0, "counterparty": "Riverbend Components Pvt Ltd", "reference": "CTR-23173", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-053", "doc_type": "contract", "date": "2026-03-07", "total_amount": 349000.0, "counterparty": "Amberley Freight Group", "reference": "CTR-53333", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-054", "doc_type": "invoice", "date": "2026-06-23", "total_amount": 226903.23, "counterparty": "Vantage Textiles Pvt Ltd", "reference": "INV-2026-62728", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-055", "doc_type": "email", "date": "2026-06-18", "total_amount": 98400.0, "counterparty": "Wexford Networks Group", "reference": "PO-28424", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-056", "doc_type": "invoice", "date": "2026-07-30", "total_amount": 171331.43, "counterparty": "Oakhurst Printing LLC", "reference": "INV-2026-77370", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-057", "doc_type": "contract", "date": "2026-07-03", "total_amount": 427000.0, "counterparty": "Summit Consulting Pvt Ltd", "reference": "CTR-35665", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-058", "doc_type": "email", "date": "2026-08-19", "total_amount": 169448.08, "counterparty": "Fairmount Components LLC", "reference": "PO-19031", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-059", "doc_type": "invoice", "date": "2026-05-06", "total_amount": 83268.38, "counterparty": "Northgate Textiles Co", "reference": "INV-2026-28901", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-060", "doc_type": "invoice", "date": "2026-10-10", "total_amount": 92032.21, "counterparty": "Wexford Logistics Pvt Ltd", "reference": "INV-2026-68540", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-061", "doc_type": "invoice", "date": "2026-03-18", "total_amount": 265837.74, "counterparty": "Maplestone Facilities Inc", "reference": "INV-2026-46852", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-062", "doc_type": "email", "date": "2026-05-08", "total_amount": 148928.43, "counterparty": "Amberley Marketing Co", "reference": "PO-95148", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-063", "doc_type": "invoice", "date": "2026-03-15", "total_amount": 16768.94, "counterparty": "Castlebrook Security Co", "reference": "INV-2026-21524", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-064", "doc_type": "contract", "date": "2026-10-15", "total_amount": 123000.0, "counterparty": "Bluepeak Logistics Inc", "reference": "CTR-22207", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-065", "doc_type": "email", "date": "2026-08-18", "total_amount": 37529.11, "counterparty": "Amberley Textiles Group", "reference": "PO-63527", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-066", "doc_type": "invoice", "date": "2026-04-07", "total_amount": 21265.69, "counterparty": "Silverline Textiles LLC", "reference": "INV-2026-26691", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-067", "doc_type": "contract", "date": "2026-01-10", "total_amount": 726000.0, "counterparty": "Orchard Packaging PLC", "reference": "CTR-39434", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-068", "doc_type": "contract", "date": "2026-05-25", "total_amount": 125000.0, "counterparty": "Redfern Textiles Pvt Ltd", "reference": "CTR-82976", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-069", "doc_type": "email", "date": "2026-01-22", "total_amount": 52707.43, "counterparty": "Pinecrest Software Inc", "reference": "PO-26632", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-070", "doc_type": "contract", "date": "2026-05-11", "total_amount": 314000.0, "counterparty": "Amberley Printing Group", "reference": "CTR-49309", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-071", "doc_type": "invoice", "date": "2026-08-09", "total_amount": 176441.08, "counterparty": "Silverline Foods Ltd", "reference": "INV-2026-98233", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-072", "doc_type": "invoice", "date": "2026-07-14", "total_amount": 133003.42, "counterparty": "Pinecrest Foods Ltd", "reference": "INV-2026-08311", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-073", "doc_type": "contract", "date": "2026-09-24", "total_amount": 382000.0, "counterparty": "Halcyon Freight Inc", "reference": "CTR-45313", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-074", "doc_type": "email", "date": "2026-09-08", "total_amount": 107000.0, "counterparty": "Maplestone Energy Group", "reference": "PO-84260", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-075", "doc_type": "invoice", "date": "2026-10-10", "total_amount": 209856.59, "counterparty": "Kestrel Facilities Inc", "reference": "INV-2026-23242", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-076", "doc_type": "invoice", "date": "2026-10-21", "total_amount": 301880.39, "counterparty": "Amberley Consulting LLC", "reference": "INV-2026-77276", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-077", "doc_type": "contract", "date": "2026-01-13", "total_amount": 871000.0, "counterparty": "Lindenwood Foods GmbH", "reference": "CTR-87077", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-078", "doc_type": "invoice", "date": "2026-08-22", "total_amount": 259216.32, "counterparty": "Riverbend Consulting LLC", "reference": "INV-2026-65095", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-079", "doc_type": "email", "date": "2026-04-03", "total_amount": 7100.0, "counterparty": "Larkspur Freight LLC", "reference": "PO-57069", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-080", "doc_type": "email", "date": "2026-03-10", "total_amount": 17300.0, "counterparty": "Ashcombe Components Group", "reference": "PO-49692", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-081", "doc_type": "contract", "date": "2026-02-26", "total_amount": 686000.0, "counterparty": "Ironbridge Networks Co", "reference": "CTR-65724", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-082", "doc_type": "email", "date": "2026-09-14", "total_amount": 142358.41, "counterparty": "Northgate Marketing Pvt Ltd", "reference": "PO-38793", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-083", "doc_type": "email", "date": "2026-09-04", "total_amount": 126400.0, "counterparty": "Tidewater Textiles GmbH", "reference": "PO-39638", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-084", "doc_type": "invoice", "date": "2026-06-11", "total_amount": 75678.17, "counterparty": "Skylark Energy Co", "reference": "INV-2026-29881", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-085", "doc_type": "invoice", "date": "2026-10-28", "total_amount": 131502.02, "counterparty": "Skylark Robotics PLC", "reference": "INV-2026-80378", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-086", "doc_type": "invoice", "date": "2026-08-02", "total_amount": 236981.36, "counterparty": "Oakhurst Supplies Co", "reference": "INV-2026-69623", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-087", "doc_type": "email", "date": "2026-10-23", "total_amount": 28169.02, "counterparty": "Greyfield Textiles Co", "reference": "PO-79748", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-088", "doc_type": "invoice", "date": "2026-05-24", "total_amount": 42907.54, "counterparty": "Castlebrook Engineering Co", "reference": "INV-2026-66688", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-089", "doc_type": "invoice", "date": "2026-09-23", "total_amount": 173230.18, "counterparty": "Corvid Networks Ltd", "reference": "INV-2026-45122", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-090", "doc_type": "invoice", "date": "2026-01-01", "total_amount": 118444.78, "counterparty": "Pinecrest Logistics Pvt Ltd", "reference": "INV-2026-05441", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-091", "doc_type": "contract", "date": "2026-03-28", "total_amount": 360000.0, "counterparty": "Corvid Consulting Pvt Ltd", "reference": "CTR-18594", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-092", "doc_type": "invoice", "date": "2026-10-12", "total_amount": 86881.84, "counterparty": "Halcyon Software GmbH", "reference": "INV-2026-60779", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-093", "doc_type": "contract", "date": "2026-06-16", "total_amount": 530000.0, "counterparty": "Wexford Components GmbH", "reference": "CTR-78953", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-094", "doc_type": "invoice", "date": "2026-10-17", "total_amount": 309150.14, "counterparty": "Northgate Logistics PLC", "reference": "INV-2026-91472", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-095", "doc_type": "invoice", "date": "2026-01-22", "total_amount": 58152.53, "counterparty": "Castlebrook Foods GmbH", "reference": "INV-2026-31327", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-096", "doc_type": "contract", "date": "2026-03-05", "total_amount": 839000.0, "counterparty": "Amberley Supplies Group", "reference": "CTR-92271", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-097", "doc_type": "email", "date": "2026-03-07", "total_amount": 163139.25, "counterparty": "Summit Energy Co", "reference": "PO-77189", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-098", "doc_type": "contract", "date": "2026-06-08", "total_amount": 52000.0, "counterparty": "Harrowgate Printing Pvt Ltd", "reference": "CTR-34939", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-099", "doc_type": "contract", "date": "2026-08-21", "total_amount": 633000.0, "counterparty": "Summit Packaging Group", "reference": "CTR-40926", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-100", "doc_type": "invoice", "date": "2026-08-09", "total_amount": 267544.94, "counterparty": "Kestrel Engineering PLC", "reference": "INV-2026-60900", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-101", "doc_type": "email", "date": "2026-04-08", "total_amount": 132700.0, "counterparty": "Skylark Engineering Group", "reference": "PO-53317", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-102", "doc_type": "invoice", "date": "2026-01-28", "total_amount": 109440.22, "counterparty": "Riverbend Technologies Ltd", "reference": "INV-2026-38221", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-103", "doc_type": "invoice", "date": "2026-10-05", "total_amount": 161691.33, "counterparty": "Riverbend Printing GmbH", "reference": "INV-2026-58836", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-104", "doc_type": "email", "date": "2026-09-30", "total_amount": 76371.49, "counterparty": "Corvid Energy Co", "reference": "PO-50361", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-105", "doc_type": "contract", "date": "2026-05-08", "total_amount": 509000.0, "counterparty": "Silverline Networks Group", "reference": "CTR-43763", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-106", "doc_type": "invoice", "date": "2026-03-05", "total_amount": 108426.38, "counterparty": "Maplestone Systems Pvt Ltd", "reference": "INV-2026-72411", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-107", "doc_type": "email", "date": "2026-04-13", "total_amount": 77888.15, "counterparty": "Greyfield Consulting Pvt Ltd", "reference": "PO-72794", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-108", "doc_type": "email", "date": "2026-10-22", "total_amount": 156200.0, "counterparty": "Pinecrest Packaging Inc", "reference": "PO-63105", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-109", "doc_type": "invoice", "date": "2026-08-12", "total_amount": 151842.98, "counterparty": "Silverline Analytics Pvt Ltd", "reference": "INV-2026-58459", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-110", "doc_type": "email", "date": "2026-06-18", "total_amount": 61249.22, "counterparty": "Oakhurst Engineering Ltd", "reference": "PO-53013", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-111", "doc_type": "email", "date": "2026-05-05", "total_amount": 42887.87, "counterparty": "Lindenwood Components LLC", "reference": "PO-55251", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-112", "doc_type": "invoice", "date": "2026-03-30", "total_amount": 148889.66, "counterparty": "Orchard Facilities LLC", "reference": "INV-2026-85866", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-113", "doc_type": "email", "date": "2026-07-19", "total_amount": 155560.36, "counterparty": "Orchard Robotics PLC", "reference": "PO-62835", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-114", "doc_type": "invoice", "date": "2026-03-08", "total_amount": 47994.36, "counterparty": "Skylark Components Co", "reference": "INV-2026-43019", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-115", "doc_type": "invoice", "date": "2026-05-02", "total_amount": 281171.37, "counterparty": "Stonehaven Foods Group", "reference": "INV-2026-17859", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-116", "doc_type": "email", "date": "2026-02-12", "total_amount": 126200.0, "counterparty": "Skylark Systems Co", "reference": "PO-94009", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-117", "doc_type": "contract", "date": "2026-09-21", "total_amount": 310000.0, "counterparty": "Stonehaven Printing Inc", "reference": "CTR-73793", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-118", "doc_type": "email", "date": "2026-06-06", "total_amount": 61315.49, "counterparty": "Thornbury Facilities Group", "reference": "PO-68100", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-119", "doc_type": "invoice", "date": "2026-10-01", "total_amount": 92766.84, "counterparty": "Pinecrest Supplies Co", "reference": "INV-2026-43355", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-120", "doc_type": "invoice", "date": "2026-09-10", "total_amount": 62694.83, "counterparty": "Ironbridge Logistics Pvt Ltd", "reference": "INV-2026-75410", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-121", "doc_type": "contract", "date": "2026-06-13", "total_amount": 218000.0, "counterparty": "Harrowgate Engineering Group", "reference": "CTR-58348", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-122", "doc_type": "contract", "date": "2026-06-08", "total_amount": 710000.0, "counterparty": "Ironbridge Systems LLC", "reference": "CTR-71469", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-123", "doc_type": "invoice", "date": "2026-10-07", "total_amount": 243292.46, "counterparty": "Castlebrook Facilities GmbH", "reference": "INV-2026-59355", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-124", "doc_type": "contract", "date": "2026-04-14", "total_amount": 370000.0, "counterparty": "Orchard Robotics Co", "reference": "CTR-49030", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-125", "doc_type": "contract", "date": "2026-02-18", "total_amount": 588000.0, "counterparty": "Vantage Marketing Co", "reference": "CTR-68274", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-126", "doc_type": "email", "date": "2026-08-18", "total_amount": 37529.11, "counterparty": "Amberley Textiles Group", "reference": "PO-63527", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-127", "doc_type": "invoice", "date": "2026-04-20", "total_amount": 41717.94, "counterparty": "Ironbridge Foods GmbH", "reference": "INV-2026-12074", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-128", "doc_type": "invoice", "date": "2026-07-26", "total_amount": 170195.04, "counterparty": "Kestrel Printing GmbH", "reference": "INV-2026-70021", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-129", "doc_type": "contract", "date": "2026-02-21", "total_amount": 260000.0, "counterparty": "Vantage Robotics LLC", "reference": "CTR-73839", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-130", "doc_type": "invoice", "date": "2026-10-09", "total_amount": 118844.36, "counterparty": "Summit Foods LLC", "reference": "INV-2026-43086", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-131", "doc_type": "invoice", "date": "2026-03-25", "total_amount": 15672.2, "counterparty": "Wexford Freight Co", "reference": "INV-2026-53817", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-132", "doc_type": "contract", "date": "2026-01-10", "total_amount": 296000.0, "counterparty": "Wexford Systems Ltd", "reference": "CTR-47057", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-133", "doc_type": "invoice", "date": "2026-01-15", "total_amount": 180563.58, "counterparty": "Vantage Software Ltd", "reference": "INV-2026-52323", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-134", "doc_type": "invoice", "date": "2026-10-25", "total_amount": 217946.77, "counterparty": "Halcyon Engineering Group", "reference": "INV-2026-93023", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-135", "doc_type": "invoice", "date": "2026-06-07", "total_amount": 106379.86, "counterparty": "Brightwell Engineering Group", "reference": "INV-2026-45708", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-136", "doc_type": "invoice", "date": "2026-07-13", "total_amount": 268658.44, "counterparty": "Thornbury Facilities Ltd", "reference": "INV-2026-96125", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-137", "doc_type": "contract", "date": "2026-08-17", "total_amount": 800000.0, "counterparty": "Summit Engineering GmbH", "reference": "CTR-65211", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-138", "doc_type": "email", "date": "2026-08-30", "total_amount": 156000.0, "counterparty": "Ironbridge Security GmbH", "reference": "PO-14305", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-139", "doc_type": "contract", "date": "2026-08-07", "total_amount": 861000.0, "counterparty": "Costlebrook Logistics Ltd", "reference": "CTR-33384", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-140", "doc_type": "invoice", "date": "2026-10-14", "total_amount": 30370.8, "counterparty": "Brightwell Logistics Pvt Ltd", "reference": "INV-2026-63878", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-141", "doc_type": "invoice", "date": "2026-01-29", "total_amount": 47670.28, "counterparty": "Larkspur Systems PLC", "reference": "INV-2026-43457", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-142", "doc_type": "invoice", "date": "2026-02-09", "total_amount": 190535.41, "counterparty": "Harrowgate Analytics LLC", "reference": "INV-2026-46707", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-143", "doc_type": "contract", "date": "2026-09-19", "total_amount": 34000.0, "counterparty": "Stonehaven Software Co", "reference": "CTR-22797", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-144", "doc_type": "invoice", "date": "2026-03-22", "total_amount": 111721.63, "counterparty": "Riverbend Energy Group", "reference": "INV-2026-96357", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-145", "doc_type": "email", "date": "2026-01-05", "total_amount": 149954.25, "counterparty": "Corvid Foods Co", "reference": "PO-61487", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-146", "doc_type": "invoice", "date": "2026-03-23", "total_amount": 246072.16, "counterparty": "Castlebrook Software Pvt Ltd", "reference": "INV-2026-78130", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-147", "doc_type": "contract", "date": "2026-03-20", "total_amount": 602000.0, "counterparty": "Silverline Printing Pvt Ltd", "reference": "CTR-43465", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-148", "doc_type": "email", "date": "2026-02-24", "total_amount": 128400.0, "counterparty": "Pinecrest Robotics Pvt Ltd", "reference": "PO-89773", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-149", "doc_type": "email", "date": "2026-04-17", "total_amount": 22293.9, "counterparty": "Brightwell Engineering Inc", "reference": "PO-95071", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-150", "doc_type": "email", "date": "2026-07-08", "total_amount": 157601.12, "counterparty": "Thornbury Technologies Ltd", "reference": "PO-12563", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-151", "doc_type": "invoice", "date": "2026-02-14", "total_amount": 80496.31, "counterparty": "Summit Foods Co", "reference": "INV-2026-65053", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-152", "doc_type": "contract", "date": "2026-03-08", "total_amount": 43000.0, "counterparty": "Vantage Software Pvt Ltd", "reference": "CTR-11129", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-153", "doc_type": "email", "date": "2026-05-07", "total_amount": 53761.55, "counterparty": "Skylark Textiles GmbH", "reference": "PO-19611", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-154", "doc_type": "email", "date": "2026-09-03", "total_amount": 124624.07, "counterparty": "Tidewater Facilities GmbH", "reference": "PO-92774", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-155", "doc_type": "invoice", "date": "2026-01-23", "total_amount": 95707.42, "counterparty": "Bluepeak Engineering Ltd", "reference": "INV-2026-27159", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-156", "doc_type": "contract", "date": "2026-10-10", "total_amount": 791000.0, "counterparty": "Northgate Foods LLC", "reference": "CTR-87373", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-157", "doc_type": "email", "date": "2026-01-15", "total_amount": 161985.27, "counterparty": "Redfern Packaging Group", "reference": "PO-97217", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-158", "doc_type": "email", "date": "2026-09-05", "total_amount": 64235.45, "counterparty": "Summit Freight Group", "reference": "PO-93591", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-159", "doc_type": "email", "date": "2026-04-04", "total_amount": 126100.0, "counterparty": "Skylark Logistics PLC", "reference": "PO-57037", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-160", "doc_type": "invoice", "date": "2026-06-11", "total_amount": 102234.07, "counterparty": "Silverline Software Co", "reference": "INV-2026-50615", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-161", "doc_type": "email", "date": "2026-02-05", "total_amount": 69800.0, "counterparty": "Fairmount Systems PLC", "reference": "PO-21051", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-162", "doc_type": "invoice", "date": "2026-07-20", "total_amount": 71062.02, "counterparty": "Silverline Foods Co", "reference": "INV-2026-81640", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-163", "doc_type": "contract", "date": "2026-06-29", "total_amount": 503000.0, "counterparty": "Maplestone Technologies Group", "reference": "CTR-93895", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-164", "doc_type": "contract", "date": "2026-08-11", "total_amount": 380000.0, "counterparty": "Quillon Printing Pvt Ltd", "reference": "CTR-45838", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-165", "doc_type": "contract", "date": "2026-03-20", "total_amount": 39000.0, "counterparty": "Fairmount Foods Pvt Ltd", "reference": "CTR-60633", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-166", "doc_type": "contract", "date": "2026-01-13", "total_amount": 871000.0, "counterparty": "Lindenwood Foods GmbH", "reference": "CTR-87077", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-167", "doc_type": "email", "date": "2026-07-08", "total_amount": 171122.54, "counterparty": "Vantage Marketing LLC", "reference": "PO-87805", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-168", "doc_type": "contract", "date": "2026-08-16", "total_amount": 519000.0, "counterparty": "Lindenwood Networks Pvt Ltd", "reference": "CTR-14628", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-169", "doc_type": "invoice", "date": "2026-08-29", "total_amount": 325783.45, "counterparty": "Thornbury Robotics Group", "reference": "INV-2026-31838", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-170", "doc_type": "invoice", "date": "2026-08-24", "total_amount": 307972.58, "counterparty": "Stonehaven Logistics Group", "reference": "INV-2026-46616", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-171", "doc_type": "invoice", "date": "2026-05-25", "total_amount": 155513.07, "counterparty": "Lindenwood Logistics Ltd", "reference": "INV-2026-04195", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-172", "doc_type": "email", "date": "2026-02-12", "total_amount": 159409.47, "counterparty": "Fairmount Printing Co", "reference": "PO-10784", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-173", "doc_type": "email", "date": "2026-04-07", "total_amount": 55100.0, "counterparty": "Oakhurst Engineering Inc", "reference": "PO-58936", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-174", "doc_type": "email", "date": "2026-09-15", "total_amount": 77300.0, "counterparty": "Skylark Foods Ltd", "reference": "PO-47796", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-175", "doc_type": "invoice", "date": "2026-07-23", "total_amount": 83800.13, "counterparty": "Riverbend Supplies Group", "reference": "INV-2026-97002", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-176", "doc_type": "invoice", "date": "2026-01-27", "total_amount": 219544.81, "counterparty": "Castlebrook Analytics Group", "reference": "INV-2026-63737", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-177", "doc_type": "invoice", "date": "2026-02-19", "total_amount": 45636.23, "counterparty": "Halcyon Systems Co", "reference": "INV-2026-84851", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-178", "doc_type": "invoice", "date": "2026-06-25", "total_amount": 55008.4, "counterparty": "Larkspur Components Inc", "reference": "INV-2026-82159", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-179", "doc_type": "email", "date": "2026-03-14", "total_amount": 19337.22, "counterparty": "Pinecrest Printing Ltd", "reference": "PO-29522", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-180", "doc_type": "invoice", "date": "2026-10-01", "total_amount": 92766.84, "counterparty": "Pinecrest Supplies Co", "reference": "INV-2026-43355", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-181", "doc_type": "contract", "date": "2026-04-02", "total_amount": 796000.0, "counterparty": "Vantage Components GmbH", "reference": "CTR-38633", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-182", "doc_type": "contract", "date": "2026-06-29", "total_amount": 503000.0, "counterparty": "Maplestone Technologies Group", "reference": "CTR-93895", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-183", "doc_type": "invoice", "date": "2026-10-22", "total_amount": 273247.19, "counterparty": "Ironbridge Software Co", "reference": "INV-2026-47459", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-184", "doc_type": "invoice", "date": "2026-03-23", "total_amount": 333872.82, "counterparty": "Corvid Printing LLC", "reference": "INV-2026-56308", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-185", "doc_type": "contract", "date": "2026-08-11", "total_amount": 163000.0, "counterparty": "Redfern Foods Ltd", "reference": "CTR-61532", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-186", "doc_type": "invoice", "date": "2026-02-23", "total_amount": 290851.3, "counterparty": "Skylark Components Inc", "reference": "INV-2026-13040", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-187", "doc_type": "email", "date": "2026-01-19", "total_amount": 53100.0, "counterparty": "Wexford Robotics Inc", "reference": "PO-56417", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-188", "doc_type": "email", "date": "2026-04-23", "total_amount": 18523.28, "counterparty": "Skylark Components Co", "reference": "PO-66208", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-189", "doc_type": "email", "date": "2026-03-30", "total_amount": 135683.82, "counterparty": "Orchard Software Group", "reference": "PO-65534", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-190", "doc_type": "invoice", "date": "2026-08-01", "total_amount": 45467.65, "counterparty": "Northgate Packaging LLC", "reference": "INV-2026-25605", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-191", "doc_type": "contract", "date": "2026-04-29", "total_amount": 317000.0, "counterparty": "Wexford Analytics Ltd", "reference": "CTR-13774", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-192", "doc_type": "contract", "date": "2026-10-15", "total_amount": 779000.0, "counterparty": "Bluepeak Engineering Inc", "reference": "CTR-28278", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-193", "doc_type": "email", "date": "2026-01-16", "total_amount": 107564.99, "counterparty": "Riverbend Software PLC", "reference": "PO-30258", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-194", "doc_type": "email", "date": "2026-06-03", "total_amount": 109447.27, "counterparty": "Skylark Technologies Group", "reference": "PO-77461", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-195", "doc_type": "contract", "date": "2026-02-26", "total_amount": 686000.0, "counterparty": "Ironbridge Networks Co", "reference": "CTR-65724", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-196", "doc_type": "invoice", "date": "2026-10-10", "total_amount": 179506.04, "counterparty": "Summit Textiles Pvt Ltd", "reference": "INV-2026-21323", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-197", "doc_type": "email", "date": "2026-07-20", "total_amount": 52041.85, "counterparty": "Ashcombe Systems Co", "reference": "PO-95638", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-198", "doc_type": "invoice", "date": "2026-03-30", "total_amount": 229146.56, "counterparty": "Pinecrest Packaging LLC", "reference": "INV-2026-63416", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-199", "doc_type": "email", "date": "2026-07-21", "total_amount": 77500.0, "counterparty": "Castlebrook Freight GmbH", "reference": "PO-66737", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-200", "doc_type": "invoice", "date": "2026-09-18", "total_amount": 161114.86, "counterparty": "Silverline Robotics Pvt Ltd", "reference": "INV-2026-86779", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-201", "doc_type": "invoice", "date": "2026-04-15", "total_amount": 138158.8, "counterparty": "Brightwell Consulting Group", "reference": "INV-2026-19200", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-202", "doc_type": "invoice", "date": "2026-04-24", "total_amount": 207239.52, "counterparty": "Amberley Components LLC", "reference": "INV-2026-65319", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-203", "doc_type": "invoice", "date": "2026-02-24", "total_amount": 95484.35, "counterparty": "Silverline Foods Ltd", "reference": "INV-2026-94460", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-204", "doc_type": "invoice", "date": "2026-01-19", "total_amount": 241200.35, "counterparty": "Quillon Networks Co", "reference": "INV-2026-62370", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-205", "doc_type": "email", "date": "2026-08-19", "total_amount": 172379.99, "counterparty": "Halcyon Marketing Group", "reference": "PO-46694", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-206", "doc_type": "contract", "date": "2026-04-29", "total_amount": 317000.0, "counterparty": "Wexford Analytics Ltd", "reference": "CTR-13774", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-207", "doc_type": "invoice", "date": "2026-02-14", "total_amount": 80496.31, "counterparty": "Summit Foods Co", "reference": "INV-2026-65053", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-208", "doc_type": "invoice", "date": "2026-02-17", "total_amount": 258293.69, "counterparty": "Bluepeak Networks LLC", "reference": "INV-2026-35949", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-209", "doc_type": "email", "date": "2026-10-10", "total_amount": 128500.0, "counterparty": "Silverline Energy Group", "reference": "PO-62058", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-210", "doc_type": "invoice", "date": "2026-01-14", "total_amount": 117817.98, "counterparty": "Redfern Foods LLC", "reference": "INV-2026-41009", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-211", "doc_type": "invoice", "date": "2026-02-27", "total_amount": 39862.16, "counterparty": "Castlebrook Components Group", "reference": "INV-2026-41634", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-212", "doc_type": "contract", "date": "2026-04-02", "total_amount": 581000.0, "counterparty": "Bluepeak Textiles Ltd", "reference": "CTR-20194", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-213", "doc_type": "invoice", "date": "2026-02-24", "total_amount": 95484.35, "counterparty": "Silverline Foods Ltd", "reference": "INV-2026-94460", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-214", "doc_type": "email", "date": "2026-07-14", "total_amount": 155289.5, "counterparty": "Skylark Analytics Ltd", "reference": "PO-71055", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-215", "doc_type": "contract", "date": "2026-05-05", "total_amount": 137000.0, "counterparty": "Redfern Security GmbH", "reference": "CTR-87337", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-216", "doc_type": "invoice", "date": "2026-02-20", "total_amount": 163336.19, "counterparty": "Silverline Logistics LLC", "reference": "INV-2026-40740", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-217", "doc_type": "email", "date": "2026-09-28", "total_amount": 122242.3, "counterparty": "Ashcombe Textiles PLC", "reference": "PO-79787", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-218", "doc_type": "contract", "date": "2026-05-13", "total_amount": 182000.0, "counterparty": "Brightwell Engineering Co", "reference": "CTR-78237", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-219", "doc_type": "email", "date": "2026-08-30", "total_amount": 49483.3, "counterparty": "Corvid Systems LLC", "reference": "PO-75416", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-220", "doc_type": "email", "date": "2026-07-08", "total_amount": 171122.54, "counterparty": "Vantage Marketing LLC", "reference": "PO-87805", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-221", "doc_type": "invoice", "date": "2026-06-18", "total_amount": 177988.6, "counterparty": "Pinecrest Engineering Inc", "reference": "INV-2026-55657", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-222", "doc_type": "contract", "date": "2026-08-31", "total_amount": 807000.0, "counterparty": "Redfern Logistics LLC", "reference": "CTR-58069", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-223", "doc_type": "contract", "date": "2026-01-18", "total_amount": 88000.0, "counterparty": "Quillon Freight Pvt Ltd", "reference": "CTR-26057", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-224", "doc_type": "email", "date": "2026-02-17", "total_amount": 101234.95, "counterparty": "Ironbridge Networks LLC", "reference": "PO-43938", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-225", "doc_type": "invoice", "date": "2026-10-14", "total_amount": 111748.11, "counterparty": "Larkspur Logistics Ltd", "reference": "INV-2026-76096", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-226", "doc_type": "contract", "date": "2026-05-23", "total_amount": 235000.0, "counterparty": "Northgate Marketing GmbH", "reference": "CTR-85880", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-227", "doc_type": "invoice", "date": "2026-01-23", "total_amount": 440739.65, "counterparty": "Vantage Supplies Pvt Ltd", "reference": "INV-2026-72031", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-228", "doc_type": "email", "date": "2026-04-26", "total_amount": 76360.15, "counterparty": "Stonehaven Logistics Pvt Ltd", "reference": "PO-84085", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-229", "doc_type": "invoice", "date": "2026-01-18", "total_amount": 123800.88, "counterparty": "Orchard Packaging LLC", "reference": "INV-2026-53081", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-230", "doc_type": "invoice", "date": "2026-08-24", "total_amount": 307972.58, "counterparty": "Stonehaven Logistics Group", "reference": "INV-2026-46616", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-231", "doc_type": "contract", "date": "2026-07-08", "total_amount": 171000.0, "counterparty": "Corvid Energy Inc", "reference": "CTR-21792", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-232", "doc_type": "contract", "date": "2026-03-15", "total_amount": 104000.0, "counterparty": "Amberley Printing PLC", "reference": "CTR-42766", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-233", "doc_type": "email", "date": "2026-09-20", "total_amount": 160907.33, "counterparty": "Ashcombe Packaging Group", "reference": "PO-73862", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-234", "doc_type": "invoice", "date": "2026-03-04", "total_amount": 151612.76, "counterparty": "Maplestone Facilities Co", "reference": "INV-2026-69361", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-235", "doc_type": "invoice", "date": "2026-04-21", "total_amount": 154540.78, "counterparty": "Orchard Robotics Inc", "reference": "INV-2026-68839", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-236", "doc_type": "contract", "date": "2026-04-21", "total_amount": 551000.0, "counterparty": "Redfern Logistics Co", "reference": "CTR-51843", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-237", "doc_type": "invoice", "date": "2026-02-25", "total_amount": 204071.42, "counterparty": "Brightwell Consulting Group", "reference": "INV-2026-24147", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-238", "doc_type": "invoice", "date": "2026-06-08", "total_amount": 129734.92, "counterparty": "Vantage Security Ltd", "reference": "INV-2026-15569", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-239", "doc_type": "invoice", "date": "2026-01-25", "total_amount": 140189.1, "counterparty": "Greyfield Analytics Group", "reference": "INV-2026-94513", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-240", "doc_type": "email", "date": "2026-09-18", "total_amount": 118875.07, "counterparty": "Riverbend Logistics PLC", "reference": "PO-28498", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-241", "doc_type": "email", "date": "2026-04-13", "total_amount": 131927.5, "counterparty": "Redfern Facilities Group", "reference": "PO-14011", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-242", "doc_type": "email", "date": "2026-01-21", "total_amount": 56298.48, "counterparty": "Halcyon Facilities Ltd", "reference": "PO-11704", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-243", "doc_type": "email", "date": "2026-03-17", "total_amount": 26100.0, "counterparty": "Quillon Systems Ltd", "reference": "PO-43531", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-244", "doc_type": "email", "date": "2026-09-14", "total_amount": 112501.41, "counterparty": "Ironbridge Facilities GmbH", "reference": "PO-51778", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-245", "doc_type": "invoice", "date": "2026-03-08", "total_amount": 68599.91, "counterparty": "Redfern Textiles Co", "reference": "INV-2026-27144", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-246", "doc_type": "invoice", "date": "2026-04-10", "total_amount": 304381.44, "counterparty": "Kestrel Supplies Ltd", "reference": "INV-2026-91237", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-247", "doc_type": "invoice", "date": "2026-09-05", "total_amount": 337038.13, "counterparty": "Summit Robotics LLC", "reference": "INV-2026-41227", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-248", "doc_type": "email", "date": "2026-01-04", "total_amount": 62500.0, "counterparty": "Stonehaven Networks Co", "reference": "PO-31210", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-249", "doc_type": "contract", "date": "2026-07-15", "total_amount": 216000.0, "counterparty": "Maplestone Engineering Pvt Ltd", "reference": "CTR-82915", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-250", "doc_type": "invoice", "date": "2026-01-23", "total_amount": 440739.65, "counterparty": "Vantage Supplies Pvt Ltd", "reference": "INV-2026-72031", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-251", "doc_type": "invoice", "date": "2026-10-09", "total_amount": 173718.37, "counterparty": "Halcyon Robotics LLC", "reference": "INV-2026-60833", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-252", "doc_type": "invoice", "date": "2026-08-22", "total_amount": 259216.32, "counterparty": "Riverbend Consulting LLC", "reference": "INV-2026-65095", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-253", "doc_type": "invoice", "date": "2026-10-12", "total_amount": 158140.96, "counterparty": "Redfern Components Pvt Ltd", "reference": "INV-2026-76047", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-254", "doc_type": "email", "date": "2026-10-02", "total_amount": 42983.55, "counterparty": "Pinecrest Consulting LLC", "reference": "PO-26539", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-255", "doc_type": "invoice", "date": "2026-04-09", "total_amount": 348318.05, "counterparty": "Tidewater Supplies PLC", "reference": "INV-2026-10292", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-256", "doc_type": "contract", "date": "2026-09-03", "total_amount": 661000.0, "counterparty": "Skylark Facilities LLC", "reference": "CTR-94170", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-257", "doc_type": "invoice", "date": "2026-06-20", "total_amount": 74562.23, "counterparty": "Ironbridge Systems Pvt Ltd", "reference": "INV-2026-88441", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-258", "doc_type": "invoice", "date": "2026-07-06", "total_amount": 164044.26, "counterparty": "Harrowgate Energy Pvt Ltd", "reference": "INV-2026-54803", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-259", "doc_type": "invoice", "date": "2026-03-24", "total_amount": 63590.69, "counterparty": "Maplestone Marketing Pvt Ltd", "reference": "INV-2026-67881", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-260", "doc_type": "invoice", "date": "2026-02-10", "total_amount": 134932.54, "counterparty": "Wexford Freight Inc", "reference": "INV-2026-09704", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-261", "doc_type": "email", "date": "2026-02-14", "total_amount": 122077.56, "counterparty": "Redfern Systems Co", "reference": "PO-51755", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-262", "doc_type": "contract", "date": "2026-10-06", "total_amount": 865000.0, "counterparty": "Kestrel Technologies Ltd", "reference": "CTR-67220", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-263", "doc_type": "invoice", "date": "2026-06-05", "total_amount": 116013.77, "counterparty": "Greyfield Foods Ltd", "reference": "INV-2026-23089", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-264", "doc_type": "invoice", "date": "2026-03-29", "total_amount": 191904.35, "counterparty": "Redfern Textiles LLC", "reference": "INV-2026-92492", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-265", "doc_type": "invoice", "date": "2026-08-24", "total_amount": 249827.76, "counterparty": "Kestrel Facilities LLC", "reference": "INV-2026-14278", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-266", "doc_type": "invoice", "date": "2026-01-27", "total_amount": 219544.81, "counterparty": "Castlebrook Analytics Group", "reference": "INV-2026-63737", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-267", "doc_type": "contract", "date": "2026-09-26", "total_amount": 150000.0, "counterparty": "Pinecrest Networks Pvt Ltd", "reference": "CTR-93451", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-268", "doc_type": "email", "date": "2026-09-26", "total_amount": 55053.57, "counterparty": "Vantage Consulting LLC", "reference": "PO-47997", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-269", "doc_type": "contract", "date": "2026-05-25", "total_amount": 496000.0, "counterparty": "Lindenwood Logistics Co", "reference": "CTR-94630", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-270", "doc_type": "email", "date": "2026-09-15", "total_amount": 77100.0, "counterparty": "Thornbury Printing PLC", "reference": "PO-39174", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-271", "doc_type": "email", "date": "2026-09-05", "total_amount": 64235.45, "counterparty": "Summit Freight Group", "reference": "PO-93591", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-272", "doc_type": "email", "date": "2026-09-19", "total_amount": 164600.0, "counterparty": "Kestrel Technologies PLC", "reference": "PO-60534", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-273", "doc_type": "contract", "date": "2026-08-03", "total_amount": 122000.0, "counterparty": "Pinecrest Printing LLC", "reference": "CTR-54101", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-274", "doc_type": "invoice", "date": "2026-03-22", "total_amount": 167715.56, "counterparty": "Halcyon Systems Co", "reference": "INV-2026-25197", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-275", "doc_type": "contract", "date": "2026-10-09", "total_amount": 282000.0, "counterparty": "Halcyon Engineering Group", "reference": "CTR-56945", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-276", "doc_type": "email", "date": "2026-08-17", "total_amount": 115438.0, "counterparty": "Redfern Supplies Co", "reference": "PO-62544", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-277", "doc_type": "contract", "date": "2026-04-28", "total_amount": 396000.0, "counterparty": "Kestrel Software Co", "reference": "CTR-67085", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-278", "doc_type": "email", "date": "2026-03-31", "total_amount": 176400.0, "counterparty": "Thornbury Printing Pvt Ltd", "reference": "PO-70604", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-279", "doc_type": "email", "date": "2026-03-27", "total_amount": 1799.07, "counterparty": "Harrowgate Technologies PLC", "reference": "PO-32615", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-280", "doc_type": "email", "date": "2026-06-09", "total_amount": 157550.04, "counterparty": "Pinecrest Networks Group", "reference": "PO-74837", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-281", "doc_type": "email", "date": "2026-04-30", "total_amount": 58782.11, "counterparty": "Corvid Logistics LLC", "reference": "PO-64388", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-282", "doc_type": "invoice", "date": "2026-03-04", "total_amount": 287382.43, "counterparty": "Thornbury Analytics Co", "reference": "INV-2026-45097", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-283", "doc_type": "contract", "date": "2026-03-23", "total_amount": 254000.0, "counterparty": "Harrowgate Printing PLC", "reference": "CTR-83180", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-284", "doc_type": "invoice", "date": "2026-02-05", "total_amount": 246092.22, "counterparty": "Fairmount Textiles Inc", "reference": "INV-2026-88996", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-285", "doc_type": "invoice", "date": "2026-07-03", "total_amount": 83249.01, "counterparty": "Redfern Networks Co", "reference": "INV-2026-32597", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-286", "doc_type": "contract", "date": "2026-09-08", "total_amount": 277000.0, "counterparty": "Fairmount Software Group", "reference": "CTR-79211", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-287", "doc_type": "invoice", "date": "2026-02-28", "total_amount": 27578.04, "counterparty": "Silverline Analytics Co", "reference": "INV-2026-99593", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-288", "doc_type": "email", "date": "2026-04-30", "total_amount": 167060.46, "counterparty": "Northgate Engineering Inc", "reference": "PO-84411", "cheap_calls": 1, "expensive_calls": 1}
+{"id": "D-289", "doc_type": "email", "date": "2026-01-30", "total_amount": 84068.83, "counterparty": "Brightwell Supplies GmbH", "reference": "PO-11724", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-290", "doc_type": "invoice", "date": "2026-05-24", "total_amount": 85811.8, "counterparty": "Thornbury Engineering Inc", "reference": "INV-2026-70716", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-291", "doc_type": "email", "date": "2026-06-08", "total_amount": 108464.16, "counterparty": "Amberley Robotics PLC", "reference": "PO-73303", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-292", "doc_type": "contract", "date": "2026-05-16", "total_amount": 351000.0, "counterparty": "Skylark Energy GmbH", "reference": "CTR-26619", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-293", "doc_type": "invoice", "date": "2026-09-25", "total_amount": 148719.65, "counterparty": "Ironbridge Textiles Group", "reference": "INV-2026-88599", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-294", "doc_type": "invoice", "date": "2026-04-01", "total_amount": 135497.34, "counterparty": "Lindenwood Foods Ltd", "reference": "INV-2026-13547", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-295", "doc_type": "invoice", "date": "2026-06-18", "total_amount": 110285.69, "counterparty": "Halcyon Software GmbH", "reference": "INV-2026-36352", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-296", "doc_type": "invoice", "date": "2026-01-28", "total_amount": 106050.84, "counterparty": "Tidewater Components Inc", "reference": "INV-2026-99168", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-297", "doc_type": "contract", "date": "2026-10-09", "total_amount": 282000.0, "counterparty": "Halcyon Engineering Group", "reference": "CTR-56945", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-298", "doc_type": "contract", "date": "2026-06-26", "total_amount": 608000.0, "counterparty": "Corvid Energy LLC", "reference": "CTR-44499", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-299", "doc_type": "invoice", "date": "2026-04-21", "total_amount": 130021.08, "counterparty": "Halcyon Robotics GmbH", "reference": "INV-2026-65511", "cheap_calls": 1, "expensive_calls": 0}
+{"id": "D-300", "doc_type": "contract", "date": "2026-03-14", "total_amount": 397000.0, "counterparty": "Quillon Analytics Ltd", "reference": "CTR-32041", "cheap_calls": 1, "expensive_calls": 0}

@@ -1,0 +1,30 @@
+{
+  "cell_accuracy": {
+    "clean/simple": 0.9667,
+    "clean/complex": 0.9581,
+    "flagged/simple": 0.4365,
+    "flagged/complex": 0.3395
+  },
+  "cell_counts": {
+    "clean/simple": [
+      55,
+      55
+    ],
+    "clean/complex": [
+      45,
+      45
+    ],
+    "flagged/simple": [
+      0,
+      0
+    ],
+    "flagged/complex": [
+      0,
+      0
+    ]
+  },
+  "expensive_accuracy": 0.97,
+  "reference": "expensive_model",
+  "complexity_threshold": 11.0,
+  "sample_size": 20
+}

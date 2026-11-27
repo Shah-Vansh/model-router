@@ -1,0 +1,27 @@
+300 documents | cheap gemini:gemini-3.5-flash-lite | expensive gemini:gemini-3.5-flash | budget 2100
+              Model router: 300 documents               
+┌───────────────────────────┬─────────┬─────────┬──────┐
+│ Metric                    │   Value │  Target │      │
+├───────────────────────────┼─────────┼─────────┼──────┤
+│ Expected accuracy         │   96.5% │  >= 92% │ PASS │
+│ Units spent               │    1700 │ <= 2100 │ PASS │
+│ Time (first to last call) │ 306.8 s │ < 600 s │ PASS │
+└───────────────────────────┴─────────┴─────────┴──────┘
+        Compared with using one model         
+┌────────────────┬───────┬───────────────────┐
+│ Strategy       │ Units │ Expected accuracy │
+├────────────────┼───────┼───────────────────┤
+│ Cheap only     │   300 │             95.1% │
+│ Expensive only │  6000 │    ~97% (assumed) │
+│ Router         │  1700 │             96.5% │
+└────────────────┴───────┴───────────────────┘
+Models: cheap gemini:gemini-3.5-flash-lite, expensive gemini:gemini-3.5-flash
+Routes: {'expensive': 70, 'cheap': 210, 'calibration': 20} | doc types: {'contract': 75, 'invoice': 135, 
+'email': 90}
+Calls: 300 cheap doc-sends, 70 expensive doc-sends; requests {'cheap_requests': 30, 'expensive_requests': 18,
+'calibration_docs': 20, 'escalated_docs': 70, 'failed_requests': 4}; cache hits 0
+Calibration (20 docs, agreement with expensive model): {'clean/simple': 0.9667, 'clean/complex': 0.9581, 
+'flagged/simple': 0.4365, 'flagged/complex': 0.3395}
+Planner (max_accuracy) stopped: budget used up
+Failures: {'expensive_no_answer_kept_cheap': 20}
+Wrote output\output.jsonl and the report files.

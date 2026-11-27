@@ -1,0 +1,80 @@
+{
+  "documents": 300,
+  "models": {
+    "cheap": "gemini:gemini-3.5-flash-lite",
+    "expensive": "gemini:gemini-3.5-flash"
+  },
+  "routes": {
+    "expensive": 70,
+    "cheap": 210,
+    "calibration": 20
+  },
+  "doc_types": {
+    "contract": 75,
+    "invoice": 135,
+    "email": 90
+  },
+  "cost": {
+    "units_spent": 1700.0,
+    "budget": 2100.0,
+    "within_budget": true,
+    "cheap_calls": 300,
+    "expensive_calls": 70,
+    "cheap_only_cost": 300.0,
+    "expensive_only_cost": 6000.0
+  },
+  "accuracy": {
+    "target": 0.92,
+    "expected": 0.9655,
+    "expected_cheap_only": 0.9511,
+    "expected_expensive_only": 0.97
+  },
+  "time": {
+    "first_to_last_call_s": 306.8,
+    "wall_s": 309.2,
+    "limit_s": 600.0,
+    "within_limit": true
+  },
+  "requests": {
+    "cheap_requests": 30,
+    "expensive_requests": 18,
+    "calibration_docs": 20,
+    "escalated_docs": 70,
+    "failed_requests": 4
+  },
+  "cache_hits": 0,
+  "failures": {
+    "expensive_no_answer_kept_cheap": 20
+  },
+  "policy": "max_accuracy",
+  "plan_stop_reason": "budget used up",
+  "calibration": {
+    "sample_size": 20,
+    "reference": "expensive_model",
+    "cell_accuracy": {
+      "clean/simple": 0.9667,
+      "clean/complex": 0.9581,
+      "flagged/simple": 0.4365,
+      "flagged/complex": 0.3395
+    },
+    "cell_counts": {
+      "clean/simple": [
+        55,
+        55
+      ],
+      "clean/complex": [
+        45,
+        45
+      ],
+      "flagged/simple": [
+        0,
+        0
+      ],
+      "flagged/complex": [
+        0,
+        0
+      ]
+    },
+    "expensive_accuracy_assumed": 0.97
+  }
+}
