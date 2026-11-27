@@ -58,6 +58,13 @@ Groq's tokens-per-minute cap would not allow 300 documents in 10 minutes.
 Four expensive requests (20 documents) failed after all retries. Those calls were not
 charged, and the router kept the cheap answers. Full details are in `output/`.
 
+Since this run, a retry pass has been added. Documents the expensive model leaves
+unanswered are re-sent one at a time, highest-value first. The allowance comes from the
+units actually left unspent, because failed calls aren't charged. For the run above, that
+would have used the 400 spare units on exactly those 20 documents. A test covers it
+(`test_failed_batches_are_retried_singly_within_budget`), but it hasn't been re-run on
+the full set yet because the free-tier daily quota for the expensive model was used up.
+
 ## How it works
 
 ```
